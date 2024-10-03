@@ -1,0 +1,101 @@
+.cont{
+  margin: auto;
+    left: 0;
+    right: 50%;
+    text-align: center;
+    width: 40%;
+    top:20%;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 20px;
+    height: 300px;
+color: white;
+align-items: center;
+}
+
+.cont button {
+
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  font-size: 20px;
+  width: 30%;
+}
+
+.cont button:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #47b6ff50;
+  transform: scale(1.1);
+}
+
+.cont button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+.contenedor-marcas{
+    display: flex;
+}
+
+.texto-absolute{
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  background-color:#ff9706c2;
+  
+  width: 600px;
+  height: 300px;
+  border-radius: 30px;
+display: flex;
+flex-direction: column;
+
+
+
+}
+.texto-absolute h1{
+  font-size: 80px;
+  margin-left: 20px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 70px;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  
+}
+.texto-absolute p{
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.texto-absolute button{
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 14px 24px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 200ms,background 200ms;
+  width: 30%;
+  margin-top:20px;
+  margin-left: 20px;
+  }
+  .texto-absolute button:hover{
+      transform: translateY(-2px);
+      background-color: white;
+      color:#ff9500;
+  }
